@@ -1,0 +1,52 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+* {
+  
+  font-family: Arial, sans-serif; /* Fonte principal */
+  font-style: italic;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #006938; /* Cor de fundo */
+}
+
+.App {
+  text-align: center;
+  max-width: 400px;
+  padding: 20px;
+  border: 5px solid #8bffc9; /* Borda com cor verde */
+  border-radius: 10px;
+  box-shadow: 0 0 50px #00ff88; /* Sombra*/
+  background-color: #8bffc9; /* Cor ddo "form" */
+}
+
+input {
+  width: 80%;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px; /* Tamanho da fonte aumentado */
+}
+
+button {
+  background-color: #fff;
+  color: #006938; /* Texto verde */
+  border-color: #006938;
+  border: 2px;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Tamanho da fonte aumentado */
+}
